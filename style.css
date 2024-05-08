@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+   
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black
+}
+#box{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(2.jpg) !important;
+   /* background: url("1.jpg") no-repeat;
+    /*filter: brightness(70%);*/
+}
+@media (max-width:767px) {
+    #box{
+        background-size: cover;
+        height:auto;
+    }
+}
+.honeInput{
+    width: 450px;
+}
+@media (max-width:767px) {
+    .honeInput{
+        width: 300px;
+    }
+}
+.Photo{
+    font-size: 80px;
+}
+@media (max-width:767px) {
+    .Photo{
+        font-size: 36px;
+    }
+}
+#box2{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(1.jpg) !important;
+}
+@media (max-width:767px) {
+    #box2{
+        background-size: cover;
+        height:auto;
+    }
+}
+#box3{
+    height: 600px;
+    background-size: cover;
+    background: url(6.jpg) no-repeat;
+}
+@media (max-width:767px) {
+    #box3{
+        background-size: cover;
+        height:auto;
+    }
+}
+.t1{
+    font-family: 'Nunito', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 36px;
+    line-height: 1.4em;
+    color: white;
+    font-weight: 500;
+}
+li{
+    list-style: none;
+    font-weight: 500;
+}
+#box4{
+    height: 600px;
+    background-size: cover;
+    background-image: linear-gradient(45deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(pricing.jpg) !important; 
+}
+@media (max-width:767px) {
+    #box4{
+        background-size: 100% 100%;
+        height:400px;
+    }
+}
+.bt:hover{
+    margin: 20px;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: rgba(100, 99, 99, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(243, 242, 242, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lpt{
+    box-shadow: rgba(84, 83, 83, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(213, 211, 211, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+#box5{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(background2.jpg) !important;
+   /* background: url("1.jpg") no-repeat;
+    /*filter: brightness(70%);*/
+}
+@media (max-width:767px) {
+    #box5{
+        background-size: cover;
+        height:auto;
+    }
+}
+.b1:hover{
+    margin-bottom: 20px;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: rgba(100, 99, 99, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(243, 242, 242, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#box6{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(240deg, #565555 0%, rgba(0, 0, 0, 0) 70%), url(contact.jpg) !important;
+   /* background: url("1.jpg") no-repeat;
+    /*filter: brightness(70%);*/
+}
+@media (max-width:767px) {
+    #box6{
+        background-size: cover;
+        height:auto;
+    }
+}
+#box7{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(kayle-kaupanger-J8ksCswaBYo-unsplash.jpg);
+    filter: blur(2px); 
+}
+@media (max-width:767px) {
+    #box7{
+        background-size: cover;
+        height:auto;
+    }
+}
+/* footer style start */
+
+*, *::before,*::after{
+    box-sizing: border-box;
+}
+.footer{
+    font-family: poppins;
+    margin: 0;
+    display: grid;
+    font-size: 14px;
+}
+.footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-fles;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #25342a;
+}
+.footer > *{
+    flex: 1 100%;
+}
+.left-area{
+    margin-right: 0.8em;
+
+}
+.footer-bootom img{
+    width: 10px;
+}
+h2{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: darkorange;
+    letter-spacing: 3px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+.right-area{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-fles;
+    display: flex;
+    flex-flow: row wrap;
+}
+.right-area > *{
+    flex: 1 50%;
+    margin-right: 1em;
+}
+.box a{
+    color: #ffffff;
+}
+.footer-bootom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+.left-area p{
+    padding-right: 20%;
+    color: #999;
+}
+.socials{
+    margin-top: 2.2em;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding :10px 12px;
+    font-size: 20px;
+}
+.btn2{
+    width: 80px;
+    border: none;
+    height: 36px;
+    background: darkorange;
+    color: #fff;
+
+}
+.search-box input{
+    height: 36px;
+}
+@media screen  and ( min-width:600px) {
+    .right-area> *{
+        flex: 1;
+    }
+    .left-area{
+        flex:  1 0px;
+    }
+    .right-area{
+        flex: 2 0px;
+    }
+}
+@media screen and(max-width:600px) {
+ .footer{
+    padding: 15px;
+ }    
+
+}
+/* footer style end */
+.st{
+    line-height: 1.8em;
+    font-size: 36px;
+    color: black;
+}
+@media (max-width:767px) {
+    .st{
+        font-size: 19px;
+        font-weight: bold;
+    }
+}
+.st1{
+    line-height: 1.8em;
+}
+@media (max-width:767px) {
+    .st1{
+        font-size: 19px;
+        font-weight: bold;
+    }
+}
+#box9{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(dm-david-MYRq63H1Xi0-unsplash.jpg) !important;
+   /* background: url("1.jpg") no-repeat;
+    /*filter: brightness(70%);*/
+}
+@media (max-width:767px) {
+    #box9{
+        background-size: cover;
+        height:auto;
+    }
+}
+#box10{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url(card7.jpg) !important;
+   /* background: url("1.jpg") no-repeat;
+    /*filter: brightness(70%);*/
+}
+@media (max-width:767px) {
+    #box10{
+        background-size: cover;
+        height:auto;
+    }
+}

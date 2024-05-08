@@ -1,0 +1,7 @@
+
+.navbar-nav .nav-link:hover {
+    color: rgba(237, 35, 35, 0.7);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(237, 24, 24, 0.55);
+}
